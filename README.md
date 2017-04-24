@@ -1,19 +1,19 @@
 # Database_RealWorldProblems_MySQL
 
 ## COMBINE TWO TABLES
-TABLE: PERSON
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| PersonId    | int     |
-| FirstName   | varchar |
-| LastName    | varchar |
-+-------------+---------+
-PersonId is the primary key column for this table.
-TABLE: ADDRESS
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
+###TABLE: PERSON
+### +-------------+---------+
+### | Column Name | Type    |
+### +-------------+---------+
+### | PersonId    | int     |
+### | FirstName   | varchar |
+### | LastName    | varchar |
+### +-------------+---------+
+### PersonId is the primary key column for this table.
+### TABLE: ADDRESS
+### +-------------+---------+
+### | Column Name | Type    |
+### +-------------+---------+
 | AddressId   | int     |
 | PersonId    | int     |
 | City        | varchar |
